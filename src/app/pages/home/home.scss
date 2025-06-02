@@ -66,7 +66,7 @@ html, body {
     justify-content: center;
     transition: 0.3s;
 background: #211131;
-background: linear-gradient(220deg,rgb(27, 18, 36) 26%, rgba(125, 10, 45, 1) 100%);
+background: linear-gradient(220deg,rgb(27, 18, 36) 26%, rgb(56, 19, 31) 100%);
 }
 
 .logo:hover{
@@ -74,13 +74,19 @@ background: linear-gradient(220deg,rgb(27, 18, 36) 26%, rgba(125, 10, 45, 1) 100
     cursor: pointer;
 }
 .text-container{
-    font-family: "valorant";
     font-size: 24px;
     color: #ca4141;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: color 0.3s;
 }
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.text img{
 
+}
 
 .navbar-container{
     display: flex;
