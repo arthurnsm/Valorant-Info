@@ -9,3 +9,11 @@ html, body {
     background: #100B1A;
     background: linear-gradient(180deg,rgba(16, 11, 26, 1) 72%, rgba(33, 17, 49, 1) 100%);
 }
+@font-face {
+  font-family: "valorant";
+  src:
+    url("./app/assets/fonts/Valorant.ttf") format("ttf"),
+    url("./app/assets/fonts/Valorant.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
