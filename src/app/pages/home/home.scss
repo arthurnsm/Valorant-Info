@@ -65,8 +65,8 @@ html, body {
     border-radius: 10px;
     justify-content: center;
     transition: 0.3s;
-background: #211131;
-background: linear-gradient(220deg,rgb(27, 18, 36) 26%, rgb(56, 19, 31) 100%);
+    background: #211131;
+    background: linear-gradient(220deg,rgb(26, 21, 31) 26%, rgb(56, 19, 31) 100%);
 }
 
 .logo:hover{
@@ -83,10 +83,10 @@ background: linear-gradient(220deg,rgb(27, 18, 36) 26%, rgb(56, 19, 31) 100%);
     display: flex;
     flex-direction: column;
     align-items: center; 
+    gap: 10px;
+    padding-bottom: 30px ;
 }
-.text img{
 
-}
 
 .navbar-container{
     display: flex;
@@ -99,8 +99,26 @@ background: linear-gradient(220deg,rgb(27, 18, 36) 26%, rgb(56, 19, 31) 100%);
 .text-container{
     padding: 60px;
     text-align: center;
+    gap: 20px;
 }
 
 .text-container .text{
 
+}
+
+.champion-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.champion img{
+    width: 60%;
+
+}
+
+.champion{
+ width: 100dvh;
 }
