@@ -110,15 +110,22 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
-.champion img{
-    width: 60%;
+.champion {
+  padding: 0;
+  border-width: 0;
+  line-height: 0; 
 
 }
 
-.champion{
- width: 100dvh;
+.champion img {
+  display: block;
+  margin: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  width: 450px;
 }
